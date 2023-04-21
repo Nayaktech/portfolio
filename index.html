@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header secion start  -->
+    <div id="hero">
+      <nav>
+        <img src="logo.png" class="logo" alt="logo" />
+        <ul>
+          <li><a href="#hero">HOME</a></li>
+          <li><a href="#about">ABOUT ME</a></li>
+          <li><a href="#services">SERVICES</a></li>
+          <li><a href="#portfolio">WORK</a></li>
+          <li><a href="#contact">CONTACT US</a></li>
+        </ul>
+      </nav>
+      <!-- home start  -->
+      <div class="info">
+        <h1>I'm <span>Amit</span> Nayak</h1>
+        <p>
+          This is my Official portofolio website to showcase my all works
+          related to <br />development and UI design.
+        </p>
+        <a href="RESUME.pdf" class="hover">Download CV</a>
+      </div>
+      <div class="img-box">
+        <img src="pattern.png" alt="" class="back-image" />
+        <img src="dd.png" alt="" class="front-image" />
+      </div>
+      <div class="social-links">
+        <a
+          href="https://www.linkedin.com/in/amit-nayak-9b64b82"
+          target="_blank"
+          class="one"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/profile.php?id=100090181517527"
+          target="_blank"
+          class="one"
+        >
+          <i class="fa-brands fa-facebook"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/amitnayak.se/"
+          target="_blank"
+          class="one"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://twitter.com/amitnayak_se" target="_blank" class="one"
+          ><i class="fa-brands fa-twitter"></i>
+        </a>
+        <span class="follow">Follow me</span>
+      </div>
+    </div>
+    <!-- home end  -->
+ <!-- about -->
+  <div id="top">
+  <div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="pic.png" alt="" />
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About me</h1>
+        <p class="about-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+          asperiores accusantium animi quia ratione error, temporibus
+          repellat enim velit esse tempora facere praesentium. Quasi
+          corporis a eius accusantium distinctio quis! Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Autem dolorem aut voluptatibus
+          voluptas mollitia quis, labore maiores nulla repellendus, numquam
+          dolores placeat iste veniam laborum blanditiis, reprehenderit
+          magnam? Unde, adipisci.
+        </p>
+        <div class="tag-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">
+            Skills
+          </p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+          <p class="tab-links" onclick="opentab('experience')">
+            Experience
+          </p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>UI/UX</span> <br />Designing web/app interfaces</li>
+            <li>
+              <span>Web Development</span> <br />Designing web/app
+              interfaces
+            </li>
+            <li>
+              <span>App Development</span> <br />Designing web/app
+              interfaces
+            </li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>2013-2015</span> <br />School Secondary Education</li>
+            <li>
+              <span>2015-2017</span> <br />
+              Higher Secondary Education
+            </li>
+            <li>
+              <span>2017-2021</span> <br />
+              Bacherlor Computer Application
+            </li>
+
+          </ul>
+        </div>
+
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>UI/UX</span> <br />Designing web/app interfaces</li>
+            <li>
+              <span>Web Development</span> <br />Designing web/app
+              interfaces
+            </li>
+            <li>
+              <span>App Development</span> <br />Designing web/app
+              interfaces
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ------------Serivice -->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Design</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. At nulla
+          quisquam atque, corporis culpa esse labore facere voluptates
+          impedit ipsum amet id aut. Quos quae, est earum dolorum soluta
+          consectetur.
+        </p>
+        <a href="https://www.simplilearn.com/what-is-web-designing-article" target="_blank">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-crop"></i>
+        <h2>UI/UX Design</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. At nulla
+          quisquam atque, corporis culpa esse labore facere voluptates
+          impedit ipsum amet id aut. Quos quae, est earum dolorum soluta
+          consectetur.
+        </p>
+        <a href="https://in.coursera.org/specializations/ui-ux-design"target="_blank">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-brands fa-app-store-ios"></i>
+        <h2>App Design</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. At nulla
+          quisquam atque, corporis culpa esse labore facere voluptates
+          impedit ipsum amet id aut. Quos quae, est earum dolorum soluta
+          consectetur.
+        </p>
+        <a href="https://in.pinterest.com/hitesh_gajjar_29/mobile-application-design/" target="_blank">Learn more</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- portfolio -->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="work-1.png" alt="" />
+        <div class="layer">
+          <h3>Social Media App</h3>
+          <br />
+          <p>
+            The app connects you to the talented people around the world.
+            download it from play store.
+          </p>
+          <a href="https://www.makeuseof.com/tag/top-social-media-apps"target="_blank"
+            ><i class="fa-solid fa-arrow-up-right-from-square"></i
+          ></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="work-2.png" alt="" />
+        <div class="layer">
+          <h3>Design</h3>
+          <br />
+          <p>
+            The app connects you to the talented people around the world.
+            download it from play store.
+          </p>
+          <a href="https://www.freepik.com/free-photos-vectors/desi"target="_blank"
+            ><i class="fa-solid fa-arrow-up-right-from-square"></i
+          ></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="work-3.png" alt="" />
+        <div class="layer">
+          <h3>Store online</h3>
+          <br />
+          <p>
+            The app connects you to the talented people around the world.
+            download it from play store.
+          </p>
+          <a href="https://www.shoppersstop.com/"target="_blank"
+            ><i class="fa-solid fa-arrow-up-right-from-square"></i
+          ></a>
+        </div>
+      </div>
+      
+      </div>
+    </div>
+    <div class="btn">  <a href="https://github.com/Nayaktech/portfolio" target="_blank"> See more</div> </a>
+</div>
+<!-- contact -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact me </h1>
+        <p><i class="fa-solid fa-envelope"></i> amitnayak.se@gmail.com</p>
+        <p> <i class="fa-solid fa-phone"></i> +91-8708946026</p>
+
+        <div class="social-icons">
+          <a href="https://www.facebook.com/profile.php?id=100090181517527" target="_blank" > <i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.linkedin.com/in/amit-nayak-9b64b82" target="_blank"> <i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/amitnayak.se/" target="_blank"> <i class="fa-brands fa-instagram"></i></i></a>
+          <a href="https://twitter.com/amitnayak_se" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+         
+        </div>
+        <div class="cv">
+          <a href="RESUME.pdf" class="btn2">Download CV</a>
+        </div>
+       
+        
+      </div>
+      <div class="contact-right">
+        <form action="">
+        <input type="text" name="Name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="Message" rows="10" placeholder="Your Message Type Inside"></textarea>
+        <button type="submit" class="btn3">Submit</button>
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<script>
+  let tablinks = document.getElementsByClassName("tab-links");
+  let tabcontents = document.getElementsByClassName("tab-contents");
+  function opentab(tabname) {
+    for (tablink of tablinks) {
+      tablink.classList.remove("active-link");
+    }
+    for (tabcontent of tabcontents) {
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+</script>
+</body>
+</html>
+
+</html>
